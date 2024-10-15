@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in Portfolio</title>
+  <link rel="stylesheet" href="pro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Editkaro.in Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#shortform">Short-form Videos</a></li>
+        <li><a href="#longform">Long-form Videos</a></li>
+        <li><a href="#gaming">Gaming Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Short-form Videos Section -->
+  <section id="shortform">
+    <h2>Short-form Videos</h2>
+    <div class="video-grid">
+      <!-- Short-form Video 1 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/5O0YDHiosD0Z/0.jpg" alt="Short Video 1 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/5O0YDHiosD0Z">
+        <p>Short Video 1</p>
+      </div>
+      <!-- Short-form Video 2 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/ScMzIvxBSi4/0.jpg" alt="Short Video 2 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/ScMzIvxBSi4">
+        <p>Short Video 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Long-form Videos Section -->
+  <section id="longform">
+    <h2>Long-form Videos</h2>
+    <div class="video-grid">
+      <!-- Long-form Video 1 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Long Video 1 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+        <p>Long Video 1</p>
+      </div>
+      <!-- Long-form Video 2 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/ysz5S6PUM-U/0.jpg" alt="Long Video 2 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/ysz5S6PUM-U">
+        <p>Long Video 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gaming Videos Section -->
+  <section id="gaming">
+    <h2>Gaming Videos</h2>
+    <div class="video-grid">
+      <!-- Gaming Video 1 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/2Vv-BfVoq4g/0.jpg" alt="Gaming Video 1 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/2Vv-BfVoq4g">
+        <p>Gaming Video 1</p>
+      </div>
+      <!-- Gaming Video 2 -->
+      <div class="video">
+        <img src="https://img.youtube.com/vi/LXb3EKWsInQ/0.jpg" alt="Gaming Video 2 Thumbnail" class="thumbnail" data-video="https://www.youtube.com/embed/LXb3EKWsInQ">
+        <p>Gaming Video 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <span class="close">&times;</span>
+      <iframe id="video-frame" width="100%" height="500px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="pro.js"></script>
+</body>
+</html>
